@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 400%;
+    background-color: orange;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.col-25{
+    color: white;
+    padding: 55px;
+}
+.col-50{
+    width: 50px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-33{
+    width: calc(100% / 3);
+}
+
+.content{
+    height: 500px;
+    margin: 70px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.prezzo{
+    color: rgb(220, 28, 28);
+}
+
+.sconto{
+    text-decoration: line-through;
+}
