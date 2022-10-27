@@ -6,20 +6,27 @@
 
 header{
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: rgb(163, 119, 38);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
-.col-25{
-    color: white;
+.col-33{
+    color: black;
     padding: 55px;
+    display: flex;
+    align-items: center;
+    margin: 15px;
 }
-.col-50 img{
-    width: 50%;
+.col-33 img{
+    width: 170px;
     margin: 16px;
 }
 
