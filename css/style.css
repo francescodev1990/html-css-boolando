@@ -29,6 +29,7 @@ header{
 .col-33 img{
     width: 170px;
     margin: 16px;
+    cursor: pointer;
 }
 
 .row{
@@ -93,4 +94,11 @@ footer{
 
 ul{
     list-style-type: none;
+}
+
+.simbol{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    cursor: pointer;
 }
