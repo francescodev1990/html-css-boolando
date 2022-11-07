@@ -5,22 +5,28 @@
 }
 
 header{
-    width: 100%;
+    padding: 25px 25px;
+    max-width: 2100px;
     height: 75px;
     background-color: rgb(163, 119, 38);
-    color: white;
+    color: #A37726;
     display: flex;
     align-items: center;
-    position: fixed;
+    margin: 0 auto;
+}
+
+li{
+    color: white;
 }
 
 .container{
     width: 80%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .col-33{
     color: black;
-    padding: 55px;
+    padding: 15px;
     display: flex;
     align-items: center;
     margin: 15px;
@@ -67,23 +73,31 @@ header{
     background-color: rgb(15, 125, 15);
     color: white;
     position: absolute;
-    top: 40px;
-    left: 20px;
+    top: 350px;
+    left: 80px;
 }
 
 .green-2{
     background-color: rgb(15, 125, 15);
     color: white;
     position: absolute;
-    top: 20px;
+    top: 350px;
     left: 20px;
 }
 
 .red{
     background-color: red;
     color: white;
-    top: 20px;
+    top: 350px;
     left: 20px;
+    width: 50px;
+}
+.red-1{
+    background-color: red;
+    color: white;
+    top: 350px;
+    left: 25px;
+    width: 50px;
 }
 
 .overlay{
@@ -112,6 +126,10 @@ ul{
 .simbol{
     position: absolute;
     top: 20px;
-    right: 0;
+    left: 265px;
     cursor: pointer;
+    background-color: white;
+}
+.simbol:hover{
+    background-color: red;
 }
